@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => {
             good chunk of my career includes building back-end systems using C#, NodeJS, and/or SQL.
           </p>
           <p>
-            However, My main love is JavaScript -- React preferred but not absolute. I can also code
+            However, my main love is JavaScript -- React preferred but not absolute. I can also code
             up a page to design, but I am by no means a designer. Big surprise right?
           </p>
           <p>
