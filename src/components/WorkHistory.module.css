@@ -1,0 +1,26 @@
+@import '../styles/_common.css';
+
+.list {
+  display: grid;
+  grid-gap: 2rem;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.item {
+  padding: 1rem 2rem 2rem;
+  border: 3px solid $red;
+  background-color: $sand-wet;
+  border-radius: 12px;
+  transition: all 600ms;
+
+  &:hover {
+    box-shadow: 1px 11px 37px -12px rgba(0,0,0,0.75);
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}

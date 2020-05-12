@@ -1,0 +1,14 @@
+@import '../styles/_common.css';
+
+.header {
+  background: $orange;
+  color: $sand-wet;
+  margin-bottom: 1.45rem;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+}
+

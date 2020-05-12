@@ -1,0 +1,95 @@
+[
+  {
+    "name": "FullStory",
+    "position": "Front-End Developer",
+    "start": "2019-05",
+    "end": "2020-05",
+    "url": "https://www.fullstory.com",
+    "highlight": "Rebuilt fullstory.com (marketing site) from the ground up using React and the Jamstack tool Gatsby",
+    "notes": ["Rebuilt fullstory.com (marketing site) from the ground up in ReactJS and SCSS-like plugins with PostCSS",
+      "High profile pages built from the ground up using leaner CSS and React to match previous designs",
+      "Worked with design and the creative team to build new pages, as well as develop a reusable component library to help iterate faster on design and development",
+      "Sourced site content from Contentful CMS to enable non-devs ability to update site content",
+      "Rebuilt blog using GatsbyJS and custom migrated all content from Ghost.io to Wordpress (as a backend)"
+    ]
+  },
+  {
+    "name": "Brightwell, Inc",
+    "position": "Senior Software Engineer",
+    "start": "2017-06",
+    "end": "2019-02",
+    "url": "https://www.brightwell.com",
+    "highlight": "Planned and implemented the path towards moving the user facing website off of .NET MVC 5 and onto a React webclient, and led other developers on how to follow best practices",
+    "notes": ["Worked with multiple designers to bring the web app into a fully responsive site",
+      "Heavy work towards full code coverage on the React app as well as several integration tests for smoke testing using Cypress.js",
+      "Implemented new ServiceStack APIs, externally RESTful and internally using a message queue to move towards a microservice architecture",
+      "Built a scraping service in Node.js using the latest JS features (async/await, classes, etc)",
+      "Helped build a new agile team by implementing proven processes and dynamics"
+    ]
+  },
+  {
+    "name": "352 Inc",
+    "position": "Software Engineer",
+    "start": "2014-06",
+    "end": "2017-04",
+    "url": "https://www.threefivetwo.com",
+    "highlight": "Successfully launched and delivered multiple projects on time with high client satisfaction",
+    "notes": ["Projects built using Node.js REST servers with React/Redux webclients",
+      "Working as tech lead providing support for both back-end and front-end developers",
+      "Architected Node.js Express server using well known patterns and conventions",
+      "Servers typically interacted with either MongoDB or PostgresSQL",
+      "All projects required at least one 3rd party integration, but usually many",
+      "Worked closely with clients and Scrum Master to gather requirements"
+    ]
+  },
+  {
+    "name": "RentPath",
+    "position": "Software Engineer",
+    "start": "2013-10",
+    "end": "2014-06",
+    "url": "https://www.apartments.com",
+    "highlight": "Built and maintained the SaaS for rentees to list properties",
+    "notes": ["Researched and implemented modern design patterns using Less CSS and jQuery interactions",
+      "Most features built via paired-programming",
+      "Restructured JavaScript into more manageable object oriented patterns",
+      "Rebuilt main MVC2 app as MVC5 with Razor"
+    ]
+  },
+  {
+    "name": "Kabbage",
+    "position": "Software Engineer",
+    "start": "2012-08",
+    "end": "2013-09",
+    "url": "https://www.kabbage.com",
+    "highlight": "Worked on the main integration team, consuming several APIs for data analysis",
+    "notes": ["Integrated with several 3rd-party APIs to pull customer’s data",
+      "Connected via OAuth, Certs, and various Homegrown Authentication",
+      "Mapped XML, JSON data to store in Sql Server and Amazon S3",
+      "Built C# flat-file parsing engine that can handle standard flat-file and COBOL style output files/reports",
+      "Implemented new features on ASP.NET MVC 3 & 4 platform",
+      "Enhanced internal APIs to prepare for public consumption",
+      "Wrote SQL queries to support Production Operations",
+      "Built C# applications (console, WPF) to support QA",
+      "Built and enhanced business logic for handling customer experience"
+    ]
+  },
+  {
+    "name": "ThePort Network",
+    "position": "Support Developer",
+    "start": "2009-10",
+    "end": "2012-04",
+    "url": "https://www.crunchbase.com/organization/theport",
+    "highlight": "Built and maintained a branded social-networking platform",
+    "notes": ["Added front-end functionality using jQuery, jsRender, Ajax, JSON, and Razor",
+      "Built underlying functionality for the forums feature via C# and NHibernate",
+      "Developed prototypes and production level features in their legacy platform",
+      "Wrote  SOLR, NHibernate, and SQL queries for reports and data pulls",
+      "Integrated Google Maps with the platform’s events feature using Javascript",
+      "Wrote integration and Moq unit tests for the new platform in C#",
+      "Fixed back-end to front-end bugs in the legacy social media platform, working with Sql Server, ASP.NET, NHibernate, and XSLT",
+      "Built SQL reports for internal and external use",
+      "Helped bring a backlogged Parature ticketing system up to a more responsive support desk nearing a weekly 1 ticket in, 1 ticket out ratio",
+      "Began as a Project Manager overseeing the implementation of the platform for several clients"
+    ]
+  }
+]

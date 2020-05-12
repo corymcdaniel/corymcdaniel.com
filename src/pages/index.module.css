@@ -1,0 +1,34 @@
+@import '../styles/_common.css';
+
+.hero {
+  h1 {
+    font-size: 4rem;
+    padding: .5rem;
+    border-left: 2rem solid $red;
+  }
+}
+
+.block {
+  background-color: $red;
+  float: left;
+  width: 2rem;
+  height: 4rem;
+  margin: 1rem;
+}
+
+.about {
+  display: grid;
+}
+
+.hero-image {
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+@media (min-width: $screen-md-min) {
+  .about {
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 2rem;
+  }
+}

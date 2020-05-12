@@ -32,6 +32,7 @@ module.exports = {
       options: {
         postCssPlugins: [
           require(`postcss-preset-env`)({ stage: 0 }),
+          require('postcss-mixins')(),
           require('postcss-functions')(),
           require('postcss-import')(),
           require('postcss-simple-vars')(),
@@ -43,4 +44,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
