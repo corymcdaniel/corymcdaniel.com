@@ -15,10 +15,12 @@ body,
 
 body {
   font-family: "Helvetica", serif;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   color: $coal;
   background-color: $sand;
+  line-height: 1.5em;
 }
 
 ul {
