@@ -3,12 +3,10 @@ import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import styles from './index.module.css';
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 import WorkHistory from '../components/WorkHistory';
 
 const IndexPage = ({ data }) => {
-  console.log(data);
   return (
     <Layout>
       <SEO title="Home" />
@@ -26,12 +24,15 @@ const IndexPage = ({ data }) => {
           <p>
             Front-End Developer, software engineer, web dev, coder... I have never been big on
             titles, but basically I've been working on software and the web for more than a decade
-            (even more-so if you count GeoCities). While I have always worked on the front-end, a
-            good chunk of my career includes building back-end systems using C# and NodeJS.
+            (add a few years if you count GeoCities). While I have always worked on the front-end, a
+            good chunk of my career includes building back-end systems using C#, NodeJS, and/or SQL.
           </p>
           <p>
             However, My main love is JavaScript -- React preferred but not absolute. I can also code
-            up a page to design, but I am by no means a designer.
+            up a page to design, but I am by no means a designer. Big surprise right?
+          </p>
+          <p>
+            <a href={'https://www.linkedin.com/in/corymcdaniel/'}>I'm on LinkedIn.</a>
           </p>
         </div>
       </div>
