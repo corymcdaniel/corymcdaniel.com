@@ -29,6 +29,10 @@
   object-position: bottom center;
 }
 
+.links {
+  font-weight: bold;
+}
+
 @media (min-width: $screen-md-min) {
   .about {
     grid-template-columns: 1fr 1.5fr;
