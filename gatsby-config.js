@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `corymcdaniel.com`,
-    description: `Site for www.corymcdaniel.com.`,
+    title: `Cory McDaniel | Web Dev`,
+    description: `Writes code cleaner than J-ROC's rhymes.`,
     author: `Cory McDaniel`,
   },
   plugins: [

@@ -15,7 +15,7 @@ const WorkHistory = (props) => {
           <a href={job.url}>{job.name}</a>
         </h3>
         <p>{job.highlight}</p>
-        <div className={styles.date}>
+        <div>
           <i>
             From {from} to {to}
           </i>
