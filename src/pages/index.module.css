@@ -2,7 +2,7 @@
 
 .hero {
   h1 {
-    font-size: 4rem;
+    font-size: 14vw;
     padding: 2.5rem;
     border-left: 2rem solid $red;
     line-height: 1.2em;
@@ -37,13 +37,23 @@
   }
 }
 
+@media (min-width: $screen-sm-min) {
+  .hero {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
 @media (min-width: $screen-md-min) {
   .about {
     grid-template-columns: 1fr 1.5fr;
     grid-gap: 2rem;
   }
 
-  h1 {
-    line-height: 1.5em;
+  .hero {
+    h1 {
+      line-height: 1.5em;
+    }
   }
 }
