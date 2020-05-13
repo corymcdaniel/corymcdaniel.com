@@ -1,3 +1,5 @@
+const React = require('react');
+
 exports.onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   if (process.env.NODE_ENV === `production`) {
     setHeadComponents([
