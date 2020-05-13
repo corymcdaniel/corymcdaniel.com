@@ -15,7 +15,8 @@
   transition: all 600ms;
 
   &:hover {
-    box-shadow: 1px 11px 37px -12px rgba(0,0,0,0.75);
+    /*rgba(0,0,0,0.75)*/
+    box-shadow: 1px 11px 37px -12px $red;
   }
 }
 

@@ -17,7 +17,11 @@ const IndexPage = ({ data }) => {
 
       <div className={styles.about}>
         <div className={styles.img}>
-          <Img className={styles.heroImage} fluid={data.hero.childImageSharp.fluid} />
+          <Img
+            className={styles.heroImage}
+            imgStyle={{ objectPosition: 'bottom center' }}
+            fluid={data.hero.childImageSharp.fluid}
+          />
         </div>
         <div className={styles.content}>
           <h3>Web Developer.</h3>
