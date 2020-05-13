@@ -35,11 +35,11 @@ const IndexPage = ({ data }) => {
             However, my main love is JavaScript -- React preferred, but not absolute. I can also
             code up a page to design, but I am by no means a designer. Big surprise right?
           </p>
-          <p className={styles.links}>
+          <div className={styles.links}>
             <a href={'https://www.linkedin.com/in/corymcdaniel/'}>I'm on LinkedIn.</a>{' '}
             <a href={'https://www.clippedpixel.com'}>I take pictures.</a>{' '}
             <a href={'https://www.github.com/corymcdaniel/'}>I write code.</a>
-          </p>
+          </div>
         </div>
       </div>
 
