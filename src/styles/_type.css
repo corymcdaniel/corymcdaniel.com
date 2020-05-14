@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Muli:wght@300;400&display=swap');
 
 h1, h2 {
-  color: $red;
+  color: $primary;
 }
 
 h3, h4, h5, h6 {
-  color: $orange
+  color: $secondary
 }
 
 a {
   text-decoration: none;
-  color: $red;
+  color: $primary;
 
   &:hover {
-    color: $orange;
+    color: $secondary;
     text-decoration: underline;
     transition: all 400ms;
   }
