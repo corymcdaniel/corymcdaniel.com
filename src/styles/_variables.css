@@ -14,8 +14,21 @@ $large: 1200px;
 /*
 ======= COLORS ========
 */
+
+/* OG palette */
 $red: #d63447;
 $orange: #f57b51;
 $sand: #f6eedf;
 $sand-wet: #d1cebd;
 $coal: #1B1B2F;
+
+/* jade */
+$one: #425735; /*#38470b;*/
+$two: #947c56;
+$three: #ebe6d1;
+$four: #f9f6f2;
+
+$primary: $one;
+$secondary: $two;
+$tertiary: $four;
+$quaternary: $three;

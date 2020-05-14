@@ -1,8 +1,8 @@
 @import '../styles/_common.css';
 
 .header {
-  background: $orange;
-  color: $sand-wet;
+  background: $secondary;
+  color: $quaternary;
   margin-bottom: 1.45rem;
 }
 

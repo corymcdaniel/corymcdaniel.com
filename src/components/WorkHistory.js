@@ -24,7 +24,7 @@ const WorkHistory = (props) => {
     );
   });
   return (
-    <div>
+    <div className={styles.container}>
       <h3>Companies worked with.</h3>
       <div className={styles.list}>{positions}</div>
     </div>

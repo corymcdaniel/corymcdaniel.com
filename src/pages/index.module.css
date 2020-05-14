@@ -4,13 +4,15 @@
   h1 {
     font-size: 14vw;
     padding: 2.5rem;
-    border-left: 2rem solid $red;
+    border-left: 2rem solid $primary;
     line-height: 1.2em;
+    border-bottom: 2rem solid $primary;
+    border-bottom-right-radius: 40px;
   }
 }
 
 .block {
-  background-color: $red;
+  background-color: $primary;
   float: left;
   width: 2rem;
   height: 4rem;
@@ -25,7 +27,8 @@
 .hero-image {
   max-height: 400px;
   overflow: hidden;
-  border-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
   object-position: bottom center;
 }
 
