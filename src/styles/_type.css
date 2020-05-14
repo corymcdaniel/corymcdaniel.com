@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Muli:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter', serif;
+}
 
 h1, h2 {
   color: $primary;
