@@ -26,14 +26,15 @@ const IndexPage = ({ data }) => {
         <div className={styles.content}>
           <h3>Web Developer.</h3>
           <p>
-            Front-End Developer, software engineer, web dev, coder... I have never been big on
-            titles, but basically I've been working on software and the web for more than a decade
-            (add a few years if you count GeoCities). While I have always worked on the front-end, a
-            good chunk of my career includes building back-end systems using C#, NodeJS, and/or SQL.
+            Hi! I build websites! Also internet applications and have over a decade of experience
+            doing so. I love working on front-end applications; focusing on React, but I'm pretty
+            tech agnostic.
           </p>
           <p>
-            However, my main love is JavaScript -- React preferred, but not absolute. I can also
-            code up a page to design, but I am by no means a designer. Big surprise right?
+            While my core beginnings were in .NET, JavaScript really drew my attention early on,
+            which led to me playing around with Node on the side around the v0.8 days (2012 - 8
+            years omg!). Since then I've built multiple servers in Node with React consuming their
+            APIs. Check out my work history below for more info!
           </p>
           <div className={styles.links}>
             <a href={'https://www.linkedin.com/in/corymcdaniel/'}>I'm on LinkedIn.</a>{' '}
