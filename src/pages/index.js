@@ -26,14 +26,14 @@ const IndexPage = ({ data }) => {
         <div className={styles.content}>
           <h3>Web Developer.</h3>
           <p>
-            Hi! I build websites! Also internet applications and have over a decade of experience
+            Hi! I build websites. Also internet applications, and have over a decade of experience
             doing so. I love working on front-end applications; focusing on React, but I'm pretty
             tech agnostic.
           </p>
           <p>
             While my core beginnings were in .NET, JavaScript really drew my attention early on,
-            which led to me playing around with Node on the side around the v0.8 days (2012 - 8
-            years omg!). Since then I've built multiple servers in Node with React consuming their
+            which led to me playing around with Node in my spare time around the v0.8 days (2012 - 8
+            years already?). Since then, I've built multiple servers in Node with React consuming their
             APIs. Check out my work history below for more info!
           </p>
           <div className={styles.links}>
