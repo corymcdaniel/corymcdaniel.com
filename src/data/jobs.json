@@ -1,5 +1,13 @@
 [
   {
+  "name": "Contractor",
+  "position": "Jamstack Specialist",
+  "start": "2019-05",
+  "end": "",
+  "url": "https://www.corymcdaniel.com",
+  "highlight": "I organize data, transform it, then display it all pretty like.",
+  "notes": ["FullStory.com", "stord.com"]},
+  {
     "name": "FullStory",
     "position": "Front-End Developer",
     "start": "2019-05",
