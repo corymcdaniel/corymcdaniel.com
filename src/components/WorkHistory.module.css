@@ -23,6 +23,10 @@
   }
 }
 
+.date {
+  flex-;
+}
+
 @media (min-width: $screen-md-min) {
   .list {
     grid-template-columns: 1fr 1fr;
