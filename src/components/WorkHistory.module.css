@@ -16,6 +16,7 @@
   transition: all 600ms;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   &:hover {
     /*rgba(0,0,0,0.75)*/
@@ -24,7 +25,7 @@
 }
 
 .date {
-  flex-;
+
 }
 
 @media (min-width: $screen-md-min) {

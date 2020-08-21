@@ -10,13 +10,19 @@ const WorkHistory = () => {
 
     return (
       <div key={i} className={styles.item}>
-        <h3>
-          <a href={job.url}>{job.name}</a>
-        </h3>
-        <p>{job.highlight}</p>
+        <div>
+          <h3>
+            <a href={job.url}>{job.name}</a>
+          </h3>
+          <p>{job.highlight}</p>
+        </div>
         <div className={styles.date}>
-          {to && (<i>From {from} to {to}</i>)}
-          {!to && (<i>Since {from}</i>)}
+          {to && (
+            <i>
+              From {from} to {to}
+            </i>
+          )}
+          {!to && <i>Since {from}</i>}
         </div>
       </div>
     );
